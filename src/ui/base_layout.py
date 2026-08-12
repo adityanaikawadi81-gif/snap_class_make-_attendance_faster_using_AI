@@ -71,7 +71,10 @@ def style_base_layout():
             h3, h4 {
                 font-family: 'Outfit', sans-serif !important;   
             }
-                
+
+            p {
+                color: #2B2B2B !important;
+            }   
 
             button{
                 border-radius: 1.5rem !important;
