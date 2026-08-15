@@ -77,6 +77,10 @@ def style_base_layout():
             h3, h4, p {
                 font-family: 'Outfit', sans-serif;   
             }
+
+            div[data-testid="stTextInput"] input {
+                color: black !important;
+            }
                 
 
             button{
