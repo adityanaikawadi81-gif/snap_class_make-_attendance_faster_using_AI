@@ -68,7 +68,7 @@ def style_base_layout():
                 color: #2B2B2B !important;
             }
                 
-            h3, h4 , p{
+            h3, h4 {
                 font-family: 'Outfit', sans-serif !important;   
             }
             
