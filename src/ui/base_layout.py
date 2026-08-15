@@ -75,15 +75,14 @@ def style_base_layout():
             }
                 
             h3, h4, p {
-                font-family: 'Outfit', sans-serif;
-                color:black !important;   
+                font-family: 'Outfit', sans-serif;   
             }
             
             div[data-testid="stTextInput"] label {
                 color: black !important;
             }
 
-            button{
+            div.stButton > button{
                 border-radius: 1.5rem !important;
                 background-color: #5865F2 !important;
                 color: white !important;
@@ -92,7 +91,7 @@ def style_base_layout():
                 transition: transform 0.25s ease-in-out !important;
                 }
 
-            button[kind="secondary"]{
+            div.stButton > button[kind="secondary"]{
                 border-radius: 1.5rem !important;
                 background-color: #EB459E !important;
                 color: white !important;
@@ -101,7 +100,7 @@ def style_base_layout():
                 transition: transform 0.25s ease-in-out !important;
                 }
 
-            button[kind="tertiary"]{
+            div.stButton > button[kind="tertiary"]{
                 border-radius: 1.5rem !important;
                 background-color: black !important;
                 color: white !important;
@@ -110,7 +109,7 @@ def style_base_layout():
                 transition: transform 0.25s ease-in-out !important;
                 }
 
-            button:hover{
+            div.stButton > button:hover{
                 transform :scale(1.05)}
         </style>  
 
