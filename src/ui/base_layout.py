@@ -77,11 +77,10 @@ def style_base_layout():
             h3, h4, p {
                 font-family: 'Outfit', sans-serif;   
             }
-
-            div[data-testid="stTextInput"] input {
+            
+            div[data-testid="stTextInput"] label {
                 color: black !important;
             }
-                
 
             button{
                 border-radius: 1.5rem !important;
