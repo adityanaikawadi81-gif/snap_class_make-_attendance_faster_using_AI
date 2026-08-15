@@ -68,33 +68,27 @@ def style_base_layout():
                 color: #2B2B2B !important;
             }
                 
-            h3, h4 {
+            h3, h4 , p{
                 font-family: 'Outfit', sans-serif !important;   
             }
-
-            p {
-                color: #2B2B2B !important;
-            }   
-
-            button{
-                border-radius: 1.5rem !important;
-                background-color: #5865F2 !important;
+            
+            div.stButton > button {
                 color: white !important;
-                padding: 10px 20px !important;
+                background-color: #333333 !important;
                 border: none !important;
-                transition: transform 0.25s ease-in-out !important;
-                }
+                border-radius: 8px !important;
+}
 
-           button[kind="secondary"]{
+            div.stButton >button[kind="secondary"]{
                 border-radius: 1.5rem !important;
                 background-color: #EB459E !important;
-                color: white !important;
+                color: black !important;
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
                 }
 
-            button[kind="tertiary"]{
+            div.stButton > button[kind="tertiary"]{
                 border-radius: 1.5rem !important;
                 background-color: black !important;
                 color: white !important;
