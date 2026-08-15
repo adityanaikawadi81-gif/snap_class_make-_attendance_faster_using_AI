@@ -50,12 +50,10 @@ def style_base_layout():
             padding-top: 1.5rem !important;
         }
 
-        /* IMPORTANT: Force the whole app to use dark text */
         .stApp {
             color: #2B2B2B !important;
         }
 
-        /* Headings */
         h1 {
             font-family: 'Climate Crisis', sans-serif !important;
             font-size: 3.5rem !important;
@@ -77,7 +75,6 @@ def style_base_layout():
             color: #2B2B2B !important;
         }
 
-        /* Normal Streamlit text */
         p, label {
             color: #2B2B2B !important;
         }
@@ -94,8 +91,6 @@ def style_base_layout():
             border-radius: 8px !important;
         }
 
-
-        /* Pink button */
         div.stButton > button[kind="secondary"],
         div.stButton > button[kind="secondary"] * {
             background-color: #EB459E !important;
@@ -109,8 +104,6 @@ def style_base_layout():
             transition: transform 0.25s ease-in-out !important;
         }
 
-
-        /* Black button */
         div.stButton > button[kind="tertiary"],
         div.stButton > button[kind="tertiary"] * {
             background-color: #111111 !important;
@@ -125,9 +118,21 @@ def style_base_layout():
         }
 
 
-        /* Hover */
         div.stButton > button:hover {
             transform: scale(1.05);
+        }
+
+        [data-testid="stCameraInput"] button {
+        background-color: #333333 !important;
+        color: white !important;
+        }
+
+        [data-testid="stCameraInput"] button * {
+            color: white !important;
+        }
+
+        [data-testid="stCameraInput"] label {
+            color: #2B2B2B !important;
         }
 
         </style>
