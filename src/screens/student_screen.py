@@ -20,7 +20,7 @@ def student_dashboard():
         header_dashboard()
     
     with c2:
-        st.subheader(f"welcome {student_data["name"]}")
+        st.header(f"welcome {student_data["name"]}")
         if st.button("log out " , shortcut="control+backspace"):
             st.session_state["is_logged_in"] = False
             del st.session_state.student_data
@@ -31,7 +31,7 @@ def student_dashboard():
     col1 , col2 = st.columns(2)
 
     with col1:
-        st.subheader("enroll the subject")
+        st.header("enroll the subject")
 
     with col2:
         if st.button("enroll now"):
